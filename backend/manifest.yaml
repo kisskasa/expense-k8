@@ -38,7 +38,7 @@ spec:
         command: ['sh', '-c', "until nslookup db-dev.chandrakasa.online; do echo waiting for myservice; sleep 2; done"]
       containers:
       - name: backend
-        image: chandrasekharkasa@gmail.com/backend:v1.0
+        image: kasachandrasekhar/backend:v1.0
         resources:
           requests:
             cpu: "100m"
