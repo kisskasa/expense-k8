@@ -27,7 +27,7 @@ spec:
       - name: mysql
         image: kasachandrasekhar/mysql:v1.0
 
-
+---
 apiVersion: v1
 kind: Service
 metadata:
